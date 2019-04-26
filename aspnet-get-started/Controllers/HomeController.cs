@@ -15,7 +15,7 @@ namespace aspnet_get_started.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page. changed from code";
+            ViewBag.Message = "Your application description page.";
 
             return View();
         }
